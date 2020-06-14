@@ -1,0 +1,37 @@
+body {
+  background: url(top-view-of-desert-2265082.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: "Lato", sans-serif;
+  color: white;
+
+  /* every color will not change because all section has their won class except h1 & h3 */
+}
+html {
+  height: 100%;
+}
+#content {
+  text-align: center;
+  padding-top: 25%;
+  text-shadow: 5px 5px 10px black;
+}
+h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 5em;
+}
+hr {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+input {
+  width: 60%;
+  padding: 12px;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
